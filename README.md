@@ -1,6 +1,11 @@
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+Why use laravel
+- Laravel is a popular PHP framework that is widely used for web application development, including building APIs.
+- Elegant Syntax: Laravel is known for its clean, expressive, and readable syntax, which makes development faster and more enjoyable. This can significantly speed up the process of building APIs.
+- Rich Documentation: Laravel provides comprehensive documentation, making it easy for developers to get started and find solutions to issues quickly.
+
 To setup the project simply follow steps below:
 - Clone or download the repo : https://github.com/seskie-web/users-api.git
 - Rename .env.example to .env

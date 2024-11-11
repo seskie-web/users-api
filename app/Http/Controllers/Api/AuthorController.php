@@ -54,6 +54,7 @@ class AuthorController extends Controller
 
         // Retrieve validated data
         $validatedData = $validator->validated();
+        $validatedData['message'] = $request->message;
 
         try {
             DB::beginTransaction();

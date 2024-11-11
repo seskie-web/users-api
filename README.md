@@ -5,6 +5,13 @@ Why use laravel
 - Laravel is a popular PHP framework that is widely used for web application development, including building APIs.
 - Elegant Syntax: Laravel is known for its clean, expressive, and readable syntax, which makes development faster and more enjoyable. This can significantly speed up the process of building APIs.
 - Rich Documentation: Laravel provides comprehensive documentation, making it easy for developers to get started and find solutions to issues quickly.
+- API Authentication: Laravel provides easy-to-use authentication systems, including options like Laravel Passport (OAuth2) for API authentication or Laravel Sanctum for simpler token-based authentication. This makes securing your API endpoints straightforward.
+- CSRF Protection: Laravel automatically protects your app from Cross-Site Request Forgery (CSRF) attacks, though this is mostly for web applications, it still can be relevant for certain API interactions, especially if your API supports browser-based requests.
+- Input Validation & Sanitization: Laravel offers powerful validation mechanisms to ensure that incoming API requests are properly validated, reducing the risk of malicious inputs.
+- Laravel is designed with RESTful principles in mind, making it easy to define routes that correspond to CRUD operations (Create, Read, Update, Delete) for your API.
+- You can define simple routes for each HTTP method (GET, POST, PUT, DELETE) in a way that is easy to understand and implement.
+- Eloquent ORM: Laravel's Eloquent ORM (Object-Relational Mapping) is a powerful tool for interacting with databases. It simplifies database queries and relationships, making it easy to interact with your data models.
+- Middleware: Laravel includes middleware for handling cross-cutting concerns, such as authentication, authorization, and logging. This is useful for API endpoints where you might want to apply global filters or authentication checks.
 
 To setup the project simply follow steps below:
 - Clone or download the repo : https://github.com/seskie-web/users-api.git

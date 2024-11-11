@@ -25,8 +25,8 @@ To setup the project simply follow steps below:
     - DB_USERNAME=seskie  
     - DB_PASSWORD=seskiev
 - Run command: composer update to download the needed packages by the framework
-- Set permissions on the project to 755 or 777 since its a local project, for detailed instruction please refer to: https://www.hostinger.com/tutorials/how-to-install-laravel-on-ubuntu
-- Run command: php artisan migrate to run the database migrations, the migration command will create a table named authors on your database and some default tables needed by laravel to run properly, the database migration files can be found on app/database/migration/, 2024_11_09_140743_create_authors_table.php is the migration file that will create a table named authors on your local database 
+- Set permissions on the project to 755 or 777 since its a local project, for detailed instructions please refer to: https://www.hostinger.com/tutorials/how-to-install-laravel-on-ubuntu
+- Run command: php artisan migrate to run the database migrations, the migration command will create a table named authors on your database and some default tables needed by laravel to run properly, the database migration files can be found on appname/database/migrations/, 2024_11_09_140743_create_authors_table.php is the migration file that will create a table named authors on your local database 
 - Run command: php artisan serve to start the backend api server, which will run on http://127.0.0.1:8000
 - e.g
   ![Screenshot from 2024-11-11 06-16-29](https://github.com/user-attachments/assets/4d2086c2-5879-430c-901b-2f4a375f1116)
